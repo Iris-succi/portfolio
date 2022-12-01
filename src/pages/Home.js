@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
         <div className='container-box'>
-            <p className='link-top'><span className='txt-p-white'>P R O J </span>E C T S</p>
+            
+            <Link to="projects" ><p className='link-top'><span className='txt-p-white'>P R O J </span>E C T S</p></Link>
             <p className='japan-txt-1'>イ<br></br>ン<br></br>タ<br></br>ー<br></br>ネ<br></br>ッ<br></br>ト</p>
     
             <Link to="skills"><p className='link-left'>S<br></br>K<br></br>I<br></br>L<br></br>L<br></br>S</p></Link>

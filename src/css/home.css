@@ -46,6 +46,7 @@
     color: #FAF9F8;
     left: 20px;
     font-size: 1.3rem;
+    transform: translate(-50%, -50%);
 }
 
 .box-2{
@@ -69,6 +70,7 @@
     color: #242222;
     right: 20px;
     font-size: 1.3rem;
+    transform: translate(-50%, -50%);
 }
 
 .txt-p-white{
@@ -82,11 +84,28 @@
 
 .link-top{
     position: absolute;
-    top: 10px;
+    top: 20px;
+    left: 50%;
     color: #242222;
     font-size: 1.3rem;
+    transform: translate(-50%, -50%);
 }
 
 .img-profil{
     width: 250px;
 }
+
+.picto-github{
+    position: absolute;
+    bottom: 20px;
+    right: 51%;
+    width: 35px;
+}
+
+.picto-linkedin{
+    position: absolute;
+    bottom: 11px;
+    left: 50%;
+    width: 50px;
+}
+

@@ -1,0 +1,59 @@
+.container-skills{
+    background: #FAF9F8;
+    height: 100vh;
+}
+
+.container-skills-img{
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.japan-txt-1-2{
+    position: absolute;
+    color: #242222;
+    top: 10px;
+    left: 20px;
+}
+
+.link-left-2{
+    position: absolute;
+    color: #242222;
+    left: 20px;
+    top:50%;
+    font-size: 1.3rem;
+    transform: translate(-50%, -50%);
+}
+
+.link-right-2{
+    position: absolute;
+    color: #242222;
+    right: 20px;
+    top: 50%;
+    font-size: 1.3rem;
+    transform: translate(-50%, -50%);
+}
+
+.title-skills{
+    font-size: 1.5rem;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.container-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-skill{
+    width: 150px;
+    margin: 30px;
+}
+
+.japan-txt-2-2{
+    position: absolute;
+    color: #242222;
+    bottom: 10px;
+    right: 20px;
+}

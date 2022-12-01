@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "../css/home.css"
 import Iris from '../assets/iris.png'
+import Linkedin from '../assets/linkedin.png'
+import Github from '../assets/github.png'
 
 function About() {
   return (
@@ -20,6 +22,9 @@ function About() {
         </div>
         <Link><p className='link-right'>P<br></br>R<br></br>o<br></br>J<br></br>E<br></br>C<br></br>T<br></br>S</p></Link>
         <p className='japan-txt-2'>イ<br></br>ン<br></br>タ<br></br>ー<br></br>ネ<br></br>ッ<br></br>ト</p>
+        <a href='#'><img className='picto-github' src={Github} alt='logo Github'></img></a>
+        <a href='#'><img className='picto-linkedin' src={Linkedin} alt='picto Linkedin'></img></a>
+        
     </div>
   )
 }
