@@ -1,0 +1,92 @@
+.container-box{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAF9F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: linear-gradient(90deg, #242222 50%, #FAF9F8 50%);
+}
+
+.black{
+    background-color: #242222;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.box-1{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #FAF9F8;
+}
+
+.txt-white{
+    font-size: 2em;
+    color: #FAF9F8;
+    padding: 5vw;
+}
+
+.txt-title {
+    font-size: 4em;
+}
+
+.japan-txt-1{
+    position: absolute;
+    color: #FAF9F8;
+    top: 10px;
+    left: 20px;
+}
+
+.link-left{
+    position: absolute;
+    color: #FAF9F8;
+    left: 20px;
+    font-size: 1.3rem;
+}
+
+.box-2{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #242222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.japan-txt-2{
+    position: absolute;
+    color: #242222;
+    bottom: 10px;
+    right: 20px;
+}
+
+.link-right{
+    position: absolute;
+    color: #242222;
+    right: 20px;
+    font-size: 1.3rem;
+}
+
+.txt-p-white{
+    color: #FAF9F8;
+    
+}
+.txt-p-black{
+    color: #242222;
+    font-size: 1.3rem;
+}
+
+.link-top{
+    position: absolute;
+    top: 10px;
+    color: #242222;
+    font-size: 1.3rem;
+}
+
+.img-profil{
+    width: 250px;
+}
