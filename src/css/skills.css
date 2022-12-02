@@ -1,6 +1,7 @@
 .container-skills{
     background: #FAF9F8;
     height: 100vh;
+    width: 100vw;
 }
 
 .container-skills-img{
@@ -56,4 +57,14 @@
     color: #242222;
     bottom: 10px;
     right: 20px;
+}
+
+.container-projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
 }

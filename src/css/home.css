@@ -109,3 +109,100 @@
     width: 50px;
 }
 
+.red-word{
+    color: #d50606;
+}
+
+
+@media screen and (max-width:1100px) {
+    .box-1{
+        width: 400px;
+        height: 400px;
+    }
+    .box-2{
+        width: 400px;
+        height: 400px;
+    }
+    .txt-white{
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .box-1{
+        width: 300px;
+        height: 300px;
+    }
+    .box-2{
+        width: 300px;
+        height: 300px;
+    }
+    .txt-title {
+        font-size: 2em;
+    }
+    .box-2>img {
+       width: 200px;     
+    }
+    .txt-white{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .container-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(#242222 50%, #FAF9F8 50%);
+    }
+    .txt-title{
+        padding-top: 140px;
+    }
+    .box-1{
+        width: 250px;
+        border-bottom: none;
+        height: 250px;
+    }
+    .box-2{
+        width: 250px;
+        height: 250px;
+        border-top: none;
+    }
+    .link-top{
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        color: #FAF9F8;
+        font-size: 1.1rem;
+    }
+    .link-right{
+        position: absolute;
+        color: #242222;
+        right: 20px;
+        font-size: 1.1rem;
+    }
+    .japan-txt-2{
+       display: none;
+    }
+    .japan-txt-1{
+       display: none;
+    }
+    .link-left{
+        position: absolute;
+        color: #FAF9F8;
+        left: 20px;
+        font-size: 1.1rem;
+        transform: translate(-50%, -50%);
+    }
+    .txt-white{
+        font-size: 1.1em;
+        padding-top: 40px;
+    }
+    .img-profil{
+        height: 200px;
+    }
+    .picto-github{
+        background-color: #242222;
+    }
+}
