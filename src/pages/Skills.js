@@ -34,7 +34,7 @@ function Skills() {
           <div className="js">
             <img className="img-skill" src={Js} alt="logo javascript"></img>
             <img
-              className="img-skill img-js-hover"
+              className="img-skill img-js-hover img-hover"
               src={JsColor}
               alt="logo javascript"
             ></img>
@@ -42,7 +42,7 @@ function Skills() {
           <div className="react">
             <img className="img-skill" src={Reactjs} alt="logo reactjs"></img>
             <img
-              className="img-skill img-react-hover"
+              className="img-skill img-react-hover img-hover"
               src={ReactColor}
               alt="logo reactjs"
             ></img>
@@ -53,7 +53,7 @@ function Skills() {
           <div className="tailwind">
             <img className="img-skill" src={Tailwind} alt="logo Tailwind"></img>
             <img
-              className="img-skill img-tailwind-hover"
+              className="img-skill img-tailwind-hover img-hover"
               src={TailwindColor}
               alt="logo Tailwind"
             ></img>

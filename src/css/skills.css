@@ -153,6 +153,9 @@
         width: 750px;
         height: 350px;
     }
+    .img-hover{
+        width: 302px;
+    }
     .title-project{
         color: #d50606;
         padding: 30px;
@@ -188,7 +191,7 @@
     .title-skills{
         font-size: 5rem;
         padding-top: 300px;
-        padding-bottom: 300px;
+        padding-bottom: 200px;
         font-weight: 100;
     }
 }
