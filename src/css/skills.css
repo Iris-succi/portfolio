@@ -138,3 +138,57 @@
         margin: 15px;
     }
 }
+
+@media screen and (min-width:1800px) {
+    .project-card{
+        border: 1px solid #242222;
+        width: 800px;
+        height: 800px;
+    }
+    .hr {
+        border-top: 1px solid #242222;
+        width: 600px;
+    }
+    .img-project{
+        width: 750px;
+        height: 350px;
+    }
+    .title-project{
+        color: #d50606;
+        padding: 30px;
+        font-size: 3rem;
+    }
+    .p-project{
+        font-size: 2.5rem;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .link-right-2{
+        right: 30px;
+        font-size: 3rem;
+    }
+    .link-left-2{
+        position: absolute;
+        color: #242222;
+        left: 30px;
+        top:50%;
+        font-size: 3rem;
+        transform: translate(-50%, -50%);
+    }
+    .link-top-black{
+        top: 30px;
+        font-size: 4rem;
+    }
+    .japan-txt-1-2, .japan-txt-2-2{
+        font-size: 2rem;
+    }
+    .img-skill{
+        width: 300px;
+    }
+    .title-skills{
+        font-size: 5rem;
+        padding-top: 300px;
+        padding-bottom: 300px;
+        font-weight: 100;
+    }
+}

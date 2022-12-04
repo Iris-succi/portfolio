@@ -39,7 +39,7 @@ function About() {
         </p>
       </Link>
       <div className="box-1">
-        <h5 className="txt-white">
+        <h5 className="txt-white-about">
           <span className="red-word">I</span> am Iris, web developer specialized
           in Javascript ES6 and React.js. Passionate about development, I
           started my professional retraining after spending several years as an
