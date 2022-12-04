@@ -27,7 +27,7 @@
 .txt-white{
     font-size: 2em;
     color: #FAF9F8;
-    padding: 5vw;
+    padding: 4vw;
 }
 
 .txt-title {
@@ -36,9 +36,56 @@
 
 .japan-txt-1{
     position: absolute;
-    color: #FAF9F8;
+    color: #d50606;
     top: 10px;
     left: 20px;
+    
+}
+
+.letter:nth-child(1){
+    animation: flip 7s infinite;
+    animation-delay: calc(.1s * 7);
+    
+}
+.letter:nth-child(2){
+    animation: flip 7s infinite;
+    animation-delay: calc(.2s * 7)
+}
+.letter:nth-child(3){
+    animation: flip 7s infinite;
+    animation-delay: calc(.3s * 7)
+}
+.letter:nth-child(4){
+    animation: flip 7s infinite;
+    animation-delay: calc(.4s * 7)
+}
+.letter:nth-child(5){
+    animation: flip 7s infinite;
+    animation-delay: calc(.5s * 7)
+}
+.letter:nth-child(6){
+    animation: flip 7s infinite;
+    animation-delay: calc(.6s * 7)
+}
+.letter:nth-child(7){
+    animation: flip 7s infinite;
+    animation-delay: calc(.7s * 7)
+}
+
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg);
+      color: #FAF9F8;
+    }
+  }
+  
+@keyframes linkhover {
+    50%{
+        letter-spacing: 8px;
+    }
+    100%{
+        letter-spacing: 4px;
+    }
 }
 
 .link-left{
@@ -89,6 +136,11 @@
     color: #242222;
     font-size: 1.3rem;
     transform: translate(-50%, -50%);
+    letter-spacing: 4px;
+    
+}
+.link-top:hover{
+    animation: linkhover 1.5s ease-in-out;
 }
 
 .img-profil{
@@ -197,12 +249,16 @@
     }
     .txt-white{
         font-size: 1.1em;
-        padding-top: 40px;
+        padding-top: 20px;
     }
     .img-profil{
-        height: 200px;
+        height: 180px;
     }
     .picto-github{
         background-color: #242222;
+        border: 1px solid #242222;
+        border-radius: 50%;
+        width: 38px;
+        bottom: 18px;
     }
 }

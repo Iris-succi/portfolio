@@ -47,11 +47,6 @@
     justify-content: center;
 }
 
-.img-skill{
-    width: 150px;
-    margin: 30px;
-}
-
 .japan-txt-2-2{
     position: absolute;
     color: #242222;
@@ -67,4 +62,79 @@
     width: 100vw;
     height: 100vh;
     overflow-y: auto;
+}
+.img-skill{
+    width: 150px;
+    margin: 30px;
+}
+
+.js{
+    position: relative;
+}
+
+.img-js-hover{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+}
+
+.img-js-hover:hover{
+    transition: 0.3s ease-in;
+    opacity: 1;
+}
+
+.react{
+    position: relative;
+}
+
+.img-react-hover{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+}
+
+.img-react-hover:hover{
+    transition: 0.3s ease-in;
+    opacity: 1;
+    width: 155px;
+}
+
+.tailwind{
+    position: relative;
+}
+
+.img-tailwind-hover{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+}
+
+.img-tailwind-hover:hover{
+    transition: 0.3s ease-in;
+    opacity: 1;
+    width: 153px;
+}
+
+@media screen and (max-width:1200px) {
+    .img-skill{
+        width: 100px;
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .img-skill{
+        width: 80px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .img-skill{
+        width: 70px;
+        margin: 15px;
+    }
 }
