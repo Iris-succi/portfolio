@@ -188,6 +188,12 @@
     .img-skill{
         width: 300px;
     }
+    .img-react-hover{
+        display: none;
+    }
+    .img-tailwind-hover{
+        display: none;
+    }
     .title-skills{
         font-size: 5rem;
         padding-top: 300px;
